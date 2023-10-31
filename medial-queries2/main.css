@@ -1,3 +1,53 @@
 body {
   background: papayawhip;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  height: 70%;
+  margin: 1em;
+}
+.container > div {
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a {
+  display: block;
+  width: calc(100% - 2em);
+  height: 33%;
+  outline: 1px solid red;
+  text-align: center;
+}
+.b {
+  display: inline-block;
+  width: calc(66.666% - 2em);
+  height: 33%;
+  outline: 1px solid red;
+}
+.cdeDiv {
+  display: flex;
+  width: calc(66.666% - 2em);
+  height: 33%;
+  justify-content: space-between;
+  outline: 1px solid red;
+  margin: 0;
+  padding: 0;
+}
+.c, .d, .e {
+  outline: 1px solid red;
+  width: 33.333%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f {
+  outline: 1px solid red;
+  display: inline-block;
+  width: calc(33.333% - 2em);
+  height: calc(66.666% - 2em);
 }
