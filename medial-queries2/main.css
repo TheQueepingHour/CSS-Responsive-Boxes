@@ -1,53 +1,43 @@
+/*Body and Container Formatting*/
 body {
-  background: papayawhip;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  background: papayawhip;
   width: 100vw;
   height: 100vh;
 }
+* {
+  outline: 1px solid red;
+}
 .container {
-  height: 70%;
+  width: 90%;
+  height: 90%;
   margin: 1em;
 }
-.container > div {
-  margin: 1em;
+/*************************/
+/*Body element formatting*/
+/*************************/
+/*Box "a" formatting*/
+.a {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.a {
-  display: block;
-  width: calc(100% - 2em);
-  height: 33%;
-  outline: 1px solid red;
-  text-align: center;
+/*Box "b" formatting*/
+.bDiv {
+  width: 66.666%;
 }
 .b {
-  display: inline-block;
-  width: calc(66.666% - 2em);
-  height: 33%;
-  outline: 1px solid red;
-}
-.cdeDiv {
-  display: flex;
-  width: calc(66.666% - 2em);
-  height: 33%;
-  justify-content: space-between;
-  outline: 1px solid red;
-  margin: 0;
-  padding: 0;
-}
-.c, .d, .e {
-  outline: 1px solid red;
-  width: 33.333%;
-  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.f {
-  outline: 1px solid red;
-  display: inline-block;
-  width: calc(33.333% - 2em);
-  height: calc(66.666% - 2em);
+/*Box for boxes "c" "d" and "e"*/
+.cdeDiv {
+  width: 66.666%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
