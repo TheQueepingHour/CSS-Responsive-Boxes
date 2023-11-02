@@ -25,19 +25,12 @@ body {
   align-items: center;
 }
 /*Box "b" formatting*/
-.bDiv {
-  width: 66.666%;
-}
-.b {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-/*Box for boxes "c" "d" and "e"*/
-.cdeDiv {
-  width: 66.666%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
+
+
+/*Box for boxes "c" "d" and "e" and formatting*/
+
+
+/********************/
+/*Box "f" formatting*/
+/********************/
+
