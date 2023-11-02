@@ -9,34 +9,21 @@ body {
   outline: 1px solid red;
 }
 .container {
-  height: 100vh;
+  min-height: 100vh;
+  font-size: 3em;
   display: flex;
   flex-direction: column;
-}
-.cdeDiv {
-  display: flex;
-  flex-grow: 1;
+  justify-content: space-between;
 }
 /*************************/
 /*Body element formatting*/
 /*************************/
-.a {
+header, footer {
   flex-grow: 1;
 }
-.b {
-  flex-grow: 3;
-}
-.c, .d, .e {
-  flex-grow: 1;
-}
-.f {
-  flex-grow: 1;
+.bcdeDiv {
+  
 }
 /*************/
 /*Media Query*/
 /*************/
-@media (min-width: 600px;) {
-
-  
-
-}
