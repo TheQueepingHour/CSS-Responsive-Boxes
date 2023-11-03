@@ -1,3 +1,40 @@
 body {
   background: peachpuff;
+  margin: 0;
+}
+* {
+  outline: 1px solid teal;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+.a {
+  flex-grow: 1;
+}
+.smlBoxes {
+  display: grid;
+  grid: auto / auto auto auto;
+  flex-grow: 1;
+}
+.h {
+  flex-grow: 2;
+}
+
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .a {
+    width: 100%;
+  }
+  .smlBoxes {
+    flex: 1;
+  }
+  .h {
+    flex: 1;
+  }
 }
