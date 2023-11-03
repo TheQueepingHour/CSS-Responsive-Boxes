@@ -8,6 +8,7 @@ body {
   padding: 0;
 }
 
+/*Body Container*/
 .container {
   text-align: center;
   font-size: 2em;
@@ -16,7 +17,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+/*Body Element Formatting*/
 .a {
   flex-grow: 1;
 }

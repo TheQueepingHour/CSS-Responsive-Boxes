@@ -5,12 +5,14 @@ body {
 * {
   outline: 1px solid teal;
 }
+/*Page Container*/
 .container {
   display: flex;
   flex-direction: column;
   height: 100vh;
   width: 100vw;
 }
+/*Body Element Formatting*/
 .a {
   flex-grow: 1;
 }
@@ -22,7 +24,7 @@ body {
 .h {
   flex-grow: 2;
 }
-
+/*Media Query for desktop view*/
 @media (min-width: 600px) {
   .container {
     flex-direction: row;
