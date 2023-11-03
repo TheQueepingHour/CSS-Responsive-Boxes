@@ -13,17 +13,57 @@ body {
   font-size: 3em;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 /*************************/
 /*Body element formatting*/
 /*************************/
 header, footer {
+  flex-grow: 2;
+}
+main {
+  display: flex;
+  flex-grow: 10;
+}
+.mainDiv {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   flex-grow: 1;
 }
-.bcdeDiv {
-  
+.b {
+  flex: 5;
 }
+.mainDivTwo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+.c, .d, .e {
+  flex: 1;
+
+}
+
 /*************/
 /*Media Query*/
 /*************/
+
+@media (min-width: 600px) {
+  
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .a {
+    width: 100%;
+  }
+
+  main {
+    flex-grow: 1;
+  }
+
+  footer {
+    flex-grow: 1;
+  }
+
+}
